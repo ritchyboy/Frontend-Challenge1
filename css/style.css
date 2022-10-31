@@ -1,0 +1,152 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+.W{
+margin-bottom: 40px;
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start:1 ;
+grid-row-end:1 ;
+}
+.navbar{
+    margin-bottom: 40px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.texttitle{
+    display: inline-block;
+}
+.title{
+    float: left;
+    font-weight: bolder;
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+p{
+font-size: 15px;
+}
+li{
+    display: inline;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    margin: 12px;
+    font-size: larger;
+    color: hsl(236, 13%, 42%);
+}
+li:hover{
+    color: hsl(5, 85%, 63%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .webText{
+    width: 400px;
+    height: 200px;
+    float:right;
+  }
+  .webText p{
+   margin-bottom: 50px;
+   color: hsl(236, 13%, 42%);
+  }
+  .webText button{
+    background-color:hsl(5, 85%, 63%);
+    color: white;
+    padding: 12px 40px 12px 40px;
+    font-size: 16px;
+    border: none;
+  }
+  .webText button:hover{
+    background-color: black;
+  }
+  .grid-container{
+    display: grid;
+    gap:15px;
+  }
+  .new{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end:4;
+    padding: 10px;
+    width: 500px;
+  } 
+  .new h1{
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 50px;
+  }
+  .new h2:hover{
+    color:hsl(35, 77%, 62%) ;
+  }
+  .new p{
+    color: hsl(233, 8%, 79%);
+    margin-top: 20px;
+  }
+  .img{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 2 ;
+    grid-row-end: 2;
+  }
+  .img img{
+    height: 400px;
+  }
+  /*Card 1*/
+  .card1{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .card1 img{
+    display: float;
+    float: left;
+    margin-right: 16px;
+  }
+  .card1-text h2{
+    color:hsl(233, 8%, 79%) ;
+  }
+  .card1-text p{
+    color:hsl(236, 13%, 42%);
+  }
+  /*Card 2*/
+  .card2{
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+  .card2 img{
+    display: float;
+    float: left;
+    margin-right: 16px;
+  }
+  .card2-text h2{
+    color:hsl(233, 8%, 79%) ;
+  }
+  .card2-text p{
+    color:hsl(236, 13%, 42%);
+  }
+  /*Card 3*/
+  .card3{
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+  .card3 img{
+    display: float;
+    float: left;
+    margin-right: 16px;
+  }
+  .card3-text h2{
+    color:hsl(233, 8%, 79%) ;
+  }
+  .card3-text p{
+    color:hsl(236, 13%, 42%);
+  }
+  .allcard{
+    display: inline-grid;
+    justify-content:stretch;
+  }
